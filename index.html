@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body class="bg-slate-200">
+    <header
+      class="bg-gradient-to-r from-teal-900 to-teal-700 flex py-1 px-4 justify-between"
+    >
+      <!-- Logo -->
+      <div class="flex items-center gap-3">
+        <a class="font-bold text-white text-3xl" href="./index.html">amazon</a>
+        <div class="cursor-pointer hover:border hover:border-white p-1">
+          <p class="text-xs text-gray-300">Delivered to</p>
+          <p class="text-sm fontbold text-white -mt-1">Sierra Leone</p>
+        </div>
+      </div>
+
+      <!-- Search -->
+      <div
+        class="flex bg-white w-[1100px] rounded-md overflow-hidden justify-between"
+      >
+        <select name="" id="" class="w-12 bg-gray-200">
+          <option value="">Art</option>
+          <option value="">Craft</option>
+          <option value="">Beauty</option>
+          <option value="">Entertainment</option>
+        </select>
+        <input
+          type="text"
+          placeholder="Search Amazon"
+          class="w-[950px] focus:outline-none"
+        />
+        <button class="bg-pink-700 px-3 text-white cursor-pointer font-bold">
+          Search
+        </button>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <div>
+          <select name="" id="" class="w-12 text-white">
+            <option value="">EN</option>
+            <option value="">FR</option>
+            <option value="">SP</option>
+          </select>
+        </div>
+        <div class="flex items-center gap-6">
+          <div class="cursor-pointer hover:border hover:border-white p-1">
+            <p class="text-xs text-gray-300">Hello, sign in</p>
+            <p class="text-sm fontbold text-white -mt-1">Account & List</p>
+          </div>
+          <div class="cursor-pointer hover:border hover:border-white p-1">
+            <p class="text-xs text-gray-300">Returns</p>
+            <p class="text-sm fontbold text-white -mt-1">& Orders</p>
+          </div>
+          <div class="cursor-pointer hover:border hover:border-white p-1">
+            <button class="text-white font-bold text-xl">Cart</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="flex bg-teal-700 p-1 px-4 gap-2 items-center">
+      <div
+        class="flex gap-2 cursor-pointer hover:border p-2 hover:border-white"
+      >
+        <div class="flex flex-col gap-1">
+          <div class="bg-white w-6 h-1 border-none"></div>
+          <div class="bg-white w-6 h-1 border-none"></div>
+          <div class="bg-white w-6 h-1 border-none"></div>
+        </div>
+        <p class="text-white text-sm font-bold">All</p>
+      </div>
+
+      <ul class="flex gap-4 items-center">
+        <li><a href="" class="text-slate-100 text-sm">Today's Deals</a></li>
+        <li><a href="" class="text-slate-100 text-sm">Prime Video</a></li>
+        <li><a href="" class="text-slate-100 text-sm">Registry</a></li>
+        <li><a href="" class="text-slate-100 text-sm">Gift Cards</a></li>
+        <li><a href="" class="text-slate-100 text-sm">Customer Service</a></li>
+        <li><a href="" class="text-slate-100 text-sm">Sell</a></li>
+      </ul>
+    </nav>
+
+    <main class="w-full">
+      <section class="hero h-[500px] w-[90%] mx-auto px-5">
+        <div class="h-[250px] w-full"></div>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+        >
+          <div class="bg-white shadow-xl p-4">
+            <h2 class="font-bold text-lg">Shop gifts by price</h2>
+
+            <div class="grid gap-3 grid-cols-2 mt-3">
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid gap-3 grid-cols-2 mt-4">
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+            </div>
+
+            <p class="text-blue-900 mt-6">Discover more for Holiday</p>
+          </div>
+
+          <div class="bg-white shadow-xl p-4">
+            <h2 class="font-bold text-lg">Shop gifts by price</h2>
+
+            <div class="grid gap-3 grid-cols-2 mt-3">
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid gap-3 grid-cols-2 mt-4">
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+            </div>
+
+            <p class="text-blue-900 mt-6">Discover more for Holiday</p>
+          </div>
+
+          <div class="bg-white shadow-xl p-4">
+            <h2 class="font-bold text-lg">Shop gifts by price</h2>
+
+            <div class="grid gap-3 grid-cols-2 mt-3">
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid gap-3 grid-cols-2 mt-4">
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+            </div>
+
+            <p class="text-blue-900 mt-6">Discover more for Holiday</p>
+          </div>
+
+          <div class="bg-white shadow-xl p-4">
+            <h2 class="font-bold text-lg">Shop gifts by price</h2>
+
+            <div class="grid gap-3 grid-cols-2 mt-3">
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid gap-3 grid-cols-2 mt-4">
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+              <div>
+                <img src="./deals.jpg" alt="" />
+                <div>
+                  <p>Under $10</p>
+                </div>
+              </div>
+            </div>
+
+            <p class="text-blue-900 mt-6">Discover more for Holiday</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
